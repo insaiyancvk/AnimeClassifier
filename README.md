@@ -74,6 +74,26 @@ Run the app:
 python app.py
 ```
 
+# Usage
+- For the web app: Select an image and click on submit button
+- For the CLI app:
+```
+usage: cli.py [-h] [-p PATH | -u URL]
+args
+optional arguments:
+
+-h, --help            show this help message and exit
+-p PATH, --path PATH  Path to image from your PC
+-u URL, --url URL     URL of the image
+```
+
+## Examples:
+### Web App:
+![](/assets/webapp.png)
+
+### CLI App:
+![](/assets/cliapp.png)
+
 ## Contributions for data collection:
 [Susil Kessav](https://github.com/susilkessav) - [Attack On Titan Data](https://www.kaggle.com/susilkessav/wwwkagglecomsusilkessavaot)
 
