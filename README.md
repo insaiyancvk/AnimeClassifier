@@ -31,24 +31,26 @@ Steps to be followed:
 Order Of Characters
 
 ```python
-['armin arlert',
- 'chopper',
- 'eren yeager',
- 'frieza',
- 'itachi',
- 'kakashi',
- 'levi ackerman',
- 'luffy',
- 'mikasa ackerman',
- 'muten roshi',
- 'naruto',
- 'reiner braun',
- 'sakura',
- 'sanji',
- 'sasuke',
- 'son gohan',
- 'son goku',
- 'usopp',
- 'vegeta',
- 'zoro']
+[
+    'Armin Arlert',
+    'Tony Tony Chopper',
+    'Eren Yeager',
+    'Frieza',
+    'Itachi Uchiha',
+    'Kakashi Hatake',
+    'Levi Ackerman',
+    'Monkey D. Luffy',
+    'Mikasa Ackerman',
+    'Muten Roshi',
+    'Naruto Uzumaki',
+    'Reiner Braun',
+    'Sakura Haruno',
+    'Vinsmoke Sanji',
+    'Sasuke Uchiha',
+    'Son Gohan',
+    'Son Goku',
+    'Usopp',
+    'Vegeta',
+    'Roronoa Zoro'
+]
  ```
