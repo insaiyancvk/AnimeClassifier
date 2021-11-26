@@ -1,34 +1,14 @@
 # Anime Character Classifier
 
-Steps:
+[![](https://img.shields.io/badge/heroku-deployed-green)](https://animeclassifier.herokuapp.com/)
 
-Name: Anime classifier
-Anime: Naruto? AoT? Jujutsu kaisen? Highschool dxd(MoC)?
-1) Take an anime.
-2) Upload an image.
-3) Top 3 predictions. 
+![](/assets/demo.png)
 
-Reference: [derenet](https://nbviewer.org/github/insaiyancvk/Dere-Net/blob/main/Dere_Net_dirty_work_colab.ipynb#Import-stuff)
+Anime character classifier trained on _ResNet50_. Trained and deployed using `PyTorch`.
 
-  
-- Collect data - 30 Characters
-  - Use scraping or whatever technique
-    - Scrape 1000 images per character for 30 characters from that anime
-  - Store each character data in separate folders with the character name being the name of the folder
-- Train yo model
-  - Refer [derenet](https://nbviewer.org/github/insaiyancvk/Dere-Net/blob/main/Dere_Net_dirty_work_colab.ipynb#Import-stuff) for that
-- Deploy da model on the Heroku app
-  - Refer app.py
+The anime include: Attack On Titan, Dragon Ball Z/Super, Naruto, One Piece.
 
-
-Steps to be followed:
-1. Collect the data - 
-2. Train the model 
-3. Validate - Tuning the model’s performance
-4. Ensemble of models (Maybe)
-5. Predict 
-
-Order Of Characters
+List Of Characters
 
 ```python
 [
@@ -54,3 +34,51 @@ Order Of Characters
     'Roronoa Zoro'
 ]
  ```
+
+ # Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/RudCodera8/AnimeClassifier
+```
+
+Navigate into the folder:
+
+```
+cd AnimeClassifier
+```
+
+## For running CLI app:
+
+Install dependencies:
+
+```
+pip install torch torchvision pillow requests
+```
+
+Run the CLI app:
+
+```
+python cli.py
+```
+## For running the web app:
+
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+Run the app:
+```
+python app.py
+```
+
+## Contributions for data collection:
+[Susil Kessav](https://github.com/susilkessav) - [Attack On Titan Data](https://www.kaggle.com/susilkessav/wwwkagglecomsusilkessavaot)
+
+[Vamshi Krishna](https://github.com/insaiyancvk) - [Dragon Ball Z/Super Data](https://www.kaggle.com/insaiyancvk/dragon-ball-z-dataset)
+
+[Abhijith Menon](https://github.com/rudCodera8) - [Naruto Data](https://www.kaggle.com/abhijimenon/narutocharactersdataset)
+
+[Vysnav](https://github.com/vysnav) - [One Piece Data](https://www.kaggle.com/vyshnavp/one-piece)
