@@ -4,7 +4,6 @@ import torch.nn as nn
 import torch, warnings, sys, os, requests, argparse
 from rich.table import Table
 from rich.console import Console
-from collections import OrderedDict
 
 warnings.filterwarnings("ignore")
 from PIL import Image
@@ -45,26 +44,26 @@ if img is None:
     exit()
 
 labels = [
-    'armin arlert',
-    'chopper',
-    'eren yeager',
-    'frieza',
-    'itachi',
-    'kakashi',
-    'levi ackerman',
-    'luffy',
-    'mikasa ackerman',
-    'muten roshi',
-    'naruto',
-    'reiner braun',
-    'sakura',
-    'sanji',
-    'sasuke',
-    'son gohan',
-    'son goku',
-    'usopp',
-    'vegeta',
-    'zoro'
+    'Armin Arlert',
+    'Tony Tony Chopper',
+    'Eren Yeager',
+    'Frieza',
+    'Itachi Uchiha',
+    'Kakashi Hatake',
+    'Levi Ackerman',
+    'Monkey D. Luffy',
+    'Mikasa Ackerman',
+    'Muten Roshi',
+    'Naruto Uzumaki',
+    'Reiner Braun',
+    'Sakura Haruno',
+    'Vinsmoke Sanji',
+    'Sasuke Uchiha',
+    'Son Gohan',
+    'Son Goku',
+    'Usopp',
+    'Vegeta',
+    'Roronoa Zoro'
 ]
 
 model = resnet50(pretrained=False)
