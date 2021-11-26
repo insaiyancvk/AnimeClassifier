@@ -27,3 +27,28 @@ Steps to be followed:
 3. Validate - Tuning the model’s performance
 4. Ensemble of models (Maybe)
 5. Predict 
+
+Order Of Characters
+
+```python
+['armin arlert',
+ 'chopper',
+ 'eren yeager',
+ 'frieza',
+ 'itachi',
+ 'kakashi',
+ 'levi ackerman',
+ 'luffy',
+ 'mikasa ackerman',
+ 'muten roshi',
+ 'naruto',
+ 'reiner braun',
+ 'sakura',
+ 'sanji',
+ 'sasuke',
+ 'son gohan',
+ 'son goku',
+ 'usopp',
+ 'vegeta',
+ 'zoro']
+ ```
