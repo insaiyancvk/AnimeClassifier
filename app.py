@@ -32,7 +32,7 @@ labels = [
 model = resnet50(pretrained=False)
 model.fc = nn.Linear(model.fc.in_features, len(labels))
 
-model.load_state_dict(torch.load('./assets/ResNet50.pth'))
+model.load_state_dict(torch.load('./assets/ResNet50.pth', map_location=torch.device('cpu')))
 model.eval()
 
 transform = transforms.Compose([
