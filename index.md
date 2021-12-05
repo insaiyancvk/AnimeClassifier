@@ -77,6 +77,7 @@ python app.py
 # Usage
 - For the web app: Select an image and click on submit button
 - For the CLI app:
+
 ```bash
 usage: cli.py [-h] [-p PATH | -u URL]
 args
