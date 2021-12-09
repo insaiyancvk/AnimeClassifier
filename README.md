@@ -4,7 +4,7 @@
 
 ![](/assets/demo.png)
 
-Anime character classifier trained on _ResNet50_. Trained and deployed using `PyTorch`.
+Anime character classifier where all the data was collected, trained on _ResNet50_. Trained and deployed using `PyTorch`.
 
 The anime include: Attack On Titan, Dragon Ball Z/Super, Naruto, One Piece.
 
